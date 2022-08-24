@@ -42,12 +42,6 @@ form div textarea {
   height: 100px;
 }
 
-@media (max-width: 576px) {
-  .input-group {
-    display: flex;
-    flex-direction: column;
-  }
-  textarea {
-    width: 100% !important;
-  }
+.input-group-text {
+  display: none !important;
 }/*# sourceMappingURL=styles.css.map */
