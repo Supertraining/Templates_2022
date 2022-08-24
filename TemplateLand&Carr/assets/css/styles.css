@@ -44,8 +44,8 @@ form div textarea {
 
 @media (max-width: 576px) {
   .input-group {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
   textarea {
     width: 100% !important;
