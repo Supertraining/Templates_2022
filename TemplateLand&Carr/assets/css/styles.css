@@ -7,16 +7,31 @@
   display: inline-block;
 }
 
+.carousel-item img {
+  height: 465px;
+}
+
+.jumbotron__Text h2 {
+  font-family: "Roboto Slab", serif;
+}
+.jumbotron__Text p {
+  font-family: "Roboto Slab", serif;
+}
+
 .Div__logo {
   min-width: 200px;
   max-width: 200px;
 }
 .Div__logo p {
-  font-family: serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .copyright {
   font-size: 0.5rem;
+}
+
+footer ul li {
+  font-family: "Roboto Slab", serif;
 }
 
 .textoPrincipal {
@@ -44,8 +59,8 @@ form div textarea {
 
 @media (max-width: 576px) {
   .input-group {
-    display: flex !important;
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column;
   }
   textarea {
     width: 100% !important;
