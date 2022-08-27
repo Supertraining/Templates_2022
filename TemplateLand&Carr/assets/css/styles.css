@@ -10,12 +10,43 @@
 .carousel-item img {
   height: 465px;
 }
+@media (max-width: 991px) {
+  .carousel-item img {
+    height: 380px;
+  }
+}
 
 .jumbotron__Text h2 {
   font-family: "Roboto Slab", serif;
 }
 .jumbotron__Text p {
   font-family: "Roboto Slab", serif;
+}
+
+figure {
+  animation-name: tilt;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes tilt {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+figure:hover {
+  animation: none;
 }
 
 .Div__logo {
@@ -65,4 +96,11 @@ form div textarea {
   textarea {
     width: 100% !important;
   }
+}
+.ofertas {
+  font-family: "Roboto Slab", serif;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
 }/*# sourceMappingURL=styles.css.map */

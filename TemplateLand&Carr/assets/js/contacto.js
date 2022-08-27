@@ -1,2 +1,2 @@
-const yearContacto = document.querySelector('#current-year-contacto')
-yearContacto.innerHTML = new Date().getFullYear()
+const year = document.querySelector('#current-year')
+year.innerHTML = new Date().getFullYear()
