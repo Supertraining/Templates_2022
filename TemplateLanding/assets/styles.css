@@ -15,13 +15,14 @@ body {
 }
 
 header {
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 1;
-    background-color: #3ED6A6;
+    background-color: #30112E;
     color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    border-radius: 5px;
 } 
 .header__Div__Logo {
     display: flex;
@@ -90,7 +91,7 @@ header button {
 
 main {
     display: grid;
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 2;
     grid-template-columns: repeat(minmax(auto-fit, 1fr)); 
     grid-auto-rows: minmax(200px, auto);
@@ -100,43 +101,28 @@ main {
 .three {
     grid-column: 1/3;
     grid-row: 1;
-    background-image: url(./img/water_Background.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.three div {
-    display: flex;
-    flex-direction: column;
-}
-.three div h1 {
+    background-color: black;
     padding: 5px;
-    font-size: 8rem;
-    font-family: 'DynaPuff', cursive;
+    border-radius: 5px;
 }
-.three div h2 {
-    padding: 5px;
-    font-size: 6rem;
-    font-family: 'DynaPuff', cursive;
+.three img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 50px 0px;
+    border-radius: 5px;
 }
-.three div li {
-    list-style: none;
-    padding: 5px;
-    font-size: 4rem;
-    font-family: 'DynaPuff', cursive;
-}
-.three div h3 {
-    padding: 5px;
-    font-size: 2rem;
-    font-family: 'DynaPuff', cursive;
+.three p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3vw;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
 }
 .threeWhapp {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    position: fixed;
+    right: 5%;
+    bottom: 0%;
+    opacity: 80%;
 }
 .threeWhapp a:hover {
     transform: rotate(360deg);
@@ -147,67 +133,53 @@ main {
     grid-column: 3/4;
     grid-row: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 10px;
     box-shadow: 0px 2px 2px silver;
+    border-radius: 5px;
+}
+.four img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 50px 0px;
+    border-radius: 5px;
 }
 .four p {
     width: 70%;
     font-family: 'Roboto Slab', serif;
-    font-size: 2rem;
+    font-size: 3vw;
     text-align: center;
     letter-spacing: 2px;
-    line-height:30px;
 }
 
 .five {
-    grid-column: 1/2;
-    grid-row: 2/4;
+    grid-column: 1/4;
+    grid-row: 2;
     box-shadow: 0px 2px 2px silver;
-}
-.five h4 {
-    font-size: 3rem;
-    text-align: center;
-    padding-top: 10px;
-}
-.five ul {
-    list-style: none;
-    text-align: center;
-}
-.five ul li {
-    font-family: 'Noto Serif HK', serif;
-    font-size: 2rem;
-    padding-top: 5px;
-
-}
-.six {
-    grid-column: 2/4;
-    grid-row: 2/4;
-    background-image: url(./img/products_Background.jpg);
-    background-position: 50% 50%;
-    background-size: cover;
+    background-image: url(./img/momentos.jpg);
+    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: start;
+    border-radius: 5px;
+    height: 100vh;
 }
-.six h4 {
+.five h2 {
     color: white;
     font-family: 'Noto Serif HK', serif;
-    font-size: 4rem;
-}
-.six p {
-    color: white;
-    font-family: 'Noto Serif HK', serif;
-    font-size: 2.5rem;
+    font-size: 6vh;
+    text-align: center;
 }
 footer {
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 3;
-    background-color:#3ED6A6;
+    background-color:#30112E;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    border-radius: 5px;
 }
 footer div {
     display: flex;
