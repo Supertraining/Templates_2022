@@ -10,9 +10,9 @@ class prodCard {
 
 let productos = [];
 
-productos.push(new prodCard ('./assets/img/Guantes-brian-wangenheim.jpg','Guantes de cocina', 'guantes de alta resistencia y calidad','Talles XS/M/L', '$2500'))
-productos.push(new prodCard ('./assets/img/lavandina.jpg','Lavandina Concentrada', 'Producto concentrado que elimina el 99,99% de todos los germenes','Envase de 750ml', '$1300'))
-productos.push(new prodCard ('./assets/img/pañuelitos.jpg','Paños desinfectantes', 'Prácticos paños higiénicos para múltiples usos','Envase de 100 unidades', '$2700'))
+productos.push(new prodCard ('./assets/img/Guantes-brian-wangenheim.webp','Guantes de cocina', 'guantes de alta resistencia y calidad','Talles XS/M/L', '$2500'))
+productos.push(new prodCard ('./assets/img/lavandina.webp','Lavandina Concentrada', 'Producto concentrado que elimina el 99,99% de todos los germenes','Envase de 750ml', '$1300'))
+productos.push(new prodCard ('./assets/img/pañuelitos.webp','Paños desinfectantes', 'Prácticos paños higiénicos para múltiples usos','Envase de 100 unidades', '$2700'))
 
 let productSection = document.getElementById('section-products');
 let tempCard = document.getElementById('card-template');
